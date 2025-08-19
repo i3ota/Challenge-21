@@ -1,0 +1,17 @@
+func progressUpdate(steps: Int, goal: Int) {
+      if Double(steps) <= Double(goal) * 0.1 {
+        print("У вас хорошее начало")
+    } else if Double(steps) > Double(goal) * 0.1 && Double(steps) <= Double(goal) * 0.5 {
+        print("Вы почти на полпути!")
+    } else if Double(steps) > Double(goal) * 0.5 && Double(steps) < Double(goal) * 0.9 {
+        print("Вы на полпути!")
+    } else if Double(steps) >= Double(goal) * 0.9 && Double(steps) < Double(goal) {
+        print("Вы почти у цели!")
+    } else {
+        print("Вы превзошли свою цель!")
+    }
+}
+progressUpdate(steps: 9, goal: 100)
+progressUpdate(steps: 11, goal: 100)
+progressUpdate(steps: 51, goal: 100)
+
