@@ -1,0 +1,15 @@
+let workTasks:[String] = ["Translate", "InternalDocs", "Accounting"]
+var personalGoals:[String] = ["Reading", "Vacation", "Yoga"]
+let studyProjects:[String] = ["Review the article", "Prepare PPT", "VC on project"]
+var taskList = [workTasks, personalGoals, studyProjects]
+taskList.removeAll()
+print(taskList)
+var complitedTasks:[String] = []
+if complitedTasks.isEmpty {
+    print("Start completing tasks")
+} else if complitedTasks.count == 1 {
+    print("You have completed the task \(complitedTasks[0])")
+} else {
+    print("You have completed multiple tasks")
+}
+personalGoals += ["Piano lesson", "Hiking"]
