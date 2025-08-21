@@ -1,0 +1,15 @@
+let running:[String] = ["Sprint", "Intervals"]
+let walking:[String] = ["Racewalking", "Hiking"]
+var challenges = [running, walking]
+print(challenges[1][0])
+challenges.removeAll()
+print(challenges)
+
+var others:[String] = []
+if others.isEmpty {
+    print("Начать тренировку")
+} else if others.count == 1 {
+    print("Вы выбрали задание")
+} else {
+    print("Вы выбрали несколько заданий")
+}
