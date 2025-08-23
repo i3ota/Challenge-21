@@ -1,0 +1,11 @@
+var dictionary = ["January":31, "February":28, "March":31]
+print(dictionary)
+dictionary["April"] = 30
+print(dictionary)
+
+let oldValue = dictionaty.updateValue(29, forKey: "February")
+print(dictionary)
+
+if let JanuaryDays = dictionary["January"] {
+print("January has \(JanuaryDays) days.")
+}
