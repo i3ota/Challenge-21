@@ -9,3 +9,4 @@ print(dictionary)
 if let JanuaryDays = dictionary["January"] {
 print("January has \(JanuaryDays) days.")
 }
+
