@@ -6,3 +6,4 @@ print(dictionary2)
 if let colorsArray = dictionary2["Colors"] {
   print(colorsArray[2])  
 }
+
