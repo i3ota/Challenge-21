@@ -1,0 +1,8 @@
+let shapesArray = ["Circle", "Square", "Triangle"]
+let colorsArray = ["Red", "Green", "Blue"]
+var dictionary2 = ["Shapes": shapesArray, "Colors": colorsArray]
+print(dictionary2)
+
+if let colorsArray = dictionary2["Colors"] {
+  print(colorsArray[2])  
+}
