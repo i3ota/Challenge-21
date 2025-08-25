@@ -1,14 +1,14 @@
 func progressUpdate(steps: Int, goal: Int) {
       if Double(steps) <= Double(goal) * 0.1 {
-        print("“ âàñ õîðîøåå íà÷àëî")
+        print("â€œ Ã¢Å•Å„ Å‘Ã®Ä‘Ã®Å™ÄºÄº Ã­Å•Ã·Å•Ã«Ã®")
     } else if Double(steps) > Double(goal) * 0.1 && Double(steps) <= Double(goal) * 0.5 {
-        print("‚û ïî÷òè íà ïîëïóòè!")
+        print("â€šÅ± ÄÃ®Ã·ÅˆÄ Ã­Å• ÄÃ®Ã«ÄÃ³ÅˆÄ!")
     } else if Double(steps) > Double(goal) * 0.5 && Double(steps) < Double(goal) * 0.9 {
-        print("‚û íà ïîëïóòè!")
+        print("â€šÅ± Ã­Å• ÄÃ®Ã«ÄÃ³ÅˆÄ!")
     } else if Double(steps) >= Double(goal) * 0.9 && Double(steps) < Double(goal) {
-        print("‚û ïî÷òè ó öåëè!")
+        print("â€šÅ± ÄÃ®Ã·ÅˆÄ Ã³ Ã¶ÄºÃ«Ä!")
     } else {
-        print("‚û ïðåâçîøëè ñâîþ öåëü!")
+        print("â€šÅ± ÄÄ‘ÄºÃ¢Ã§Ã®Å™Ã«Ä Å„Ã¢Ã®Å£ Ã¶ÄºÃ«Ã¼!")
     }
 }
 progressUpdate(steps: 9, goal: 100)
