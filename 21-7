@@ -1,0 +1,15 @@
+var Steps = ["Easy":10.0, "Medium":8.0, "Fast":6.0]
+print(Steps)
+Steps["Sprint"] = 4.0
+print(Steps)
+
+let oldValue2 = Steps.updateValue(7.5, forKey: "Medium") 
+let oldValue3 = Steps.updateValue(5.8, forKey: "Fast")
+print(Steps)
+
+Steps["Sprint"] = nil
+print(Steps)
+
+if var Temp = Steps["Medium"] {
+    print("Хорошо! Я буду поддерживать вас в темпе 7.5 минута в милю.")
+}
