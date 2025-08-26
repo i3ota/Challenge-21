@@ -1,0 +1,9 @@
+var dict:[String:[String:UInt]] = [
+"Yamada":["Jan 5": 80],
+"Tanaka":["Jan 4": 95],
+"Ooi":["Jan 6": 86]
+]
+dict["Akhmetov"] = ["Jan 4": 99]
+print(dict)
+var list = dict.keys
+print(list.count)
