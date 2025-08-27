@@ -1,0 +1,9 @@
+var numberOfLives = 3
+var stillAlive = true
+while stillAlive {
+  print("У меня все еще есть \(numberOfLives) жизни.")
+  numberOfLives -= 1
+  if numberOfLives == 0 {
+    stillAlive = false
+  }
+}
