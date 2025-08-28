@@ -1,0 +1,6 @@
+for counter in -10...10 {
+  print(counter)
+  if counter == 0 {
+    break
+  }
+}
