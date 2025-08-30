@@ -1,0 +1,4 @@
+let names = ["Аскар", "Алмас", "Эльдар"]
+for name in names {
+  print("Привет \(name)")
+}
