@@ -1,0 +1,4 @@
+let vehicles = ["unicycle" : 1, "bicycle" : 2, "tricycle" : 3, "quad bike" : 4]
+for (vehicleName, wheelCount) in vehicles {
+  print("\(vehicleName) имеет \(wheelCount) колеса")
+}
