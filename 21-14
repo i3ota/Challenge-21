@@ -1,0 +1,11 @@
+
+let month = "Май"
+let otherMonth = "Май"
+let lowercaseMonth = "май"
+
+if month == otherMonth {
+  print("Они одинаковые")
+}
+if month != lowercaseMonth {
+  print("Они не одинаковые.")
+}
