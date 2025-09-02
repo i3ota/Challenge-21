@@ -1,0 +1,5 @@
+func display(teamName: String, score: Int = 0) {
+  print("\(teamName): \(score)")
+}
+display(teamName: "FC Kairat", score: 150)
+display(teamName: "FC Kairat")
