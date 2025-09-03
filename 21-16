@@ -1,0 +1,4 @@
+func sayHello(to person: String, and anotherPerson: String) {
+  print("Hello \(person) and \(anotherPerson)")
+}
+sayHello(to: "Luke", and: "Dave")
