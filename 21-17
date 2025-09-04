@@ -1,0 +1,10 @@
+func sayHello(to person: String, and anotherPerson: String) {
+  print("Hello \(person) and \(anotherPerson)")
+}
+sayHello(to: "Luke", and: "Dave")
+
+
+func add(_  firstNumber: Int, to secondNumber: Int) -> Int {
+    firstNumber + secondNumber
+}
+let total = add(14, to: 6)
