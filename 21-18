@@ -1,0 +1,8 @@
+let temperature = 70
+if temperature >= 65 && temperature <= 75 {
+  print("Температура идеальная.")
+} else if temperature < 65 {
+  print("Слишком холодно.")
+} else {
+  print("Слишком горячо.")
+}
