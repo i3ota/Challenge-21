@@ -1,0 +1,4 @@
+let newName = "Robert Downey Jr."
+if newName.contains("Jr.") {
+    print("Это имя используется второе поколение")
+}
