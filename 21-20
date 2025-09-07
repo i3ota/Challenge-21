@@ -1,0 +1,8 @@
+let isSunny = true
+let temperature = 25
+let isNiceWeather = !isRaining || (temperature > 25) && isSunny
+if isNiceWeather == true {
+    print("Я иду на прогулку!")
+} else{
+    print("Я буду дома")
+}
