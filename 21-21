@@ -1,0 +1,7 @@
+let friend = "Alua"
+switch friend {
+    case "Alua", "Aizat", "Dulat", "Kamila":
+        print("Добро пожаловать!")
+    default:
+        print("Вас нет в списке!")
+}
